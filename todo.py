@@ -52,5 +52,8 @@ def print_list(items):
         print(u"    {bold}{green}nothing!{reset}".format(**COLORS))
 
 if __name__ == '__main__':
-    with codecs.open(os.path.expanduser('~/todo'), encoding='utf-8') as fh:
-        print_list([i.rstrip() for i in fh.readlines()])
+    try:
+        with codecs.open(os.path.expanduser('~/todo'), encoding='utf-8') as fh:
+            print_list([i.rstrip() for i in fh.readlines()])
+    except IOError:
+        print_list([])
