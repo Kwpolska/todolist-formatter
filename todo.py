@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 # ToDoList Formatter
-# Copyright © 2014-2016, Chris Warrick.
+# Copyright © 2014-2017, Chris Warrick.
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
