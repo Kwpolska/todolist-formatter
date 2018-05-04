@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # ToDoList Formatter
 # Copyright © 2014-2018, Chris Warrick.
