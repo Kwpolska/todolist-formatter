@@ -36,9 +36,14 @@
 
 import io
 import os
-import colorama
 
-COLORS = dict(red=colorama.Fore.RED, yellow=colorama.Fore.YELLOW, green=colorama.Fore.GREEN, bold=colorama.Style.BRIGHT, reset=colorama.Style.RESET_ALL)
+COLORS = {
+    'red': '\033[31m',
+    'green': '\033[32m',
+    'yellow': '\033[33m',
+    'bold': '\033[1m',
+    'reset': '\033[0m'
+}
 
 
 def print_list(items):
